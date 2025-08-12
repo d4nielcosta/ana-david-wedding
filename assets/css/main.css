@@ -3789,7 +3789,7 @@ input, select, textarea {
 		}
 
 		#main > .post {
-			padding: 8rem 8rem 6rem 8rem ;
+			/*padding: 8rem 8rem 6rem 8rem ;*/
 		}
 
 			#main > .post header.major > .date {
@@ -4709,4 +4709,12 @@ input, select, textarea {
 	border-radius: 15px;
 	padding: 20px;
 	color: #804646;
+}
+
+.row {
+	display: flex;
+}
+
+.column {
+	flex: 50%;
 }
